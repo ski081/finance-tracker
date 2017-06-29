@@ -20,7 +20,7 @@ init_stock_lookup = function() {
       hide_spinner();
       $('#stock-lookup-results').replaceWith(' ');
       $('#stock-lookup-errors').replaceWith('Stock was not found');
-    });
+  });
 }
 
 $(document).ready(function() {
